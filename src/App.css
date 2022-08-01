@@ -1,38 +1,55 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  color: #fff;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+h1 {
+  width: 38%;
+  margin-left: 31%;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background-color: #2155CD;
+  font-size: 30px;
+  color: #fff;
   text-align: center;
+  font-family: sans-serif;
+  line-height: 2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title-app {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-tareas {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilo para tareas lista */
+.tareas-list-main {
+  width: 600px;
+  min-height: 500px;
+  background-color: #0AA1DD;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
